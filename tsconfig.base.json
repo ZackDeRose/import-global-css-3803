@@ -14,7 +14,14 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@import-global-css-3803/shared-library": [
+        "libs/shared-library/src/index.ts"
+      ],
+      "@import-global-css-3803/shared-library/styles": [
+        "libs/shared-library/src/lib/shared-library.module.css"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
